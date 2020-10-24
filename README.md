@@ -1,15 +1,27 @@
-# 👷 `worker-template` Hello World
+# 👷 `url-short-cfw`
 
-A template for kick starting a Cloudflare worker project.
+An Custom Build Link Shortener build with Cloudflare Workers
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+## Project Structure
 
-#### Wrangler
+```
+.
+├── .github                   # Auto Deploy and NODE CI scripts (`GitHub Actions Scripts`)
+│   └── workflows
+│       ├── cfw.js.yml          # CloudFlare Worker auto deploy script
+│       └── test.yml            # NodeJS CI scripts
+├── dist                      # Build Directory
+│   └── worker.js             # Initial CFW Worker file
+├── index.js                  # Initial CFW Worker file
+├── package.json              # NodeJS package configuration
+├── urls.json                 # Custom Url Endpoints
+└── wrangler.toml             # CFW wrangler config
+```
+
+## Build your Own
 
 To generate using [wrangler](https://github.com/cloudflare/wrangler)
 
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+wrangler generate <your-project-name> https://github.com/BRAVO68WEB/url-short-cfw
 ```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).

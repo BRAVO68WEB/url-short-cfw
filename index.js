@@ -1,6 +1,6 @@
 const urls = require('./urls.json')
 
-addEventListener('fetch', (event) => {
+addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
@@ -12,5 +12,9 @@ async function handleRequest(request) {
       status: 308,
       headers: { location: urls[path] },
     })
-  else return new Response('404 not found?', { status: 404 })
+  else
+    return new Response(
+      '404 not found !! Check all possible at <a href="https://links.dfcommunity.win/all-urls"> Here </a>',
+      { status: 404 },
+    )
 }

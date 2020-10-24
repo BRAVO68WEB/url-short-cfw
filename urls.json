@@ -3,5 +3,6 @@
   "df-cloud": "https://cloud.dfcommunity.win",
   "help": "https://github.com/bravo68web/url-short-cfw",
   "df-api": "https://api.dfcommunity.win",
-  "*": "https://github.com/"
+  "all-urls": "https://raw.githubusercontent.com/BRAVO68WEB/url-short-cfw/master/urls.json",
+  "buildby": "https://github.com/bravo68web/"
 }

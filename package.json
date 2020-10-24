@@ -2,10 +2,10 @@
   "private": true,
   "name": "url-shorter",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "An Custom URL Shortener build on Cloud Flare Worker Platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm ci",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "Jyotirmoy <bravo68web@gmail.com>",
