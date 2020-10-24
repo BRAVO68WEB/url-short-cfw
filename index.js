@@ -14,7 +14,7 @@ async function handleRequest(request) {
     })
   else
     return new Response(
-      '404 not found !! Check all possible at <a href="https://links.dfcommunity.win/all-urls"> Here </a>',
+      '404 not found !! Check all possible at https://links.dfcommunity.win/all-urls',
       { status: 404 },
     )
 }
