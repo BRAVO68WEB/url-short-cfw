@@ -1,7 +1,7 @@
-name = "url-shorter"
+name = "your-project-name"
 type = "webpack"
-account_id = "3749eb26e0a3cde65809270e845ad10c"
-workers_dev = false
-route = "links.dfcommunity.win/*"
-zone_id = "d8fd5e2b2464a2e4d2bff504a83831fe"
+account_id = ""
+workers_dev = true
+route = "*"
+# zone_id = ""
 
