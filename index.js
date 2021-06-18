@@ -23,7 +23,7 @@ async function handleRequest(request) {
         </head>
         <body>
           404 not found !! Check all possible at
-          https://links.dfcommunity.win/all-urls
+          urls.json
         </body>
       </html>
     `,
