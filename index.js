@@ -19,7 +19,7 @@ async function handleRequest(request) {
         <head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>DF Community URL Shortner</title>
+          <title>My URL Shortner</title>
         </head>
         <body>
           404 not found !! Check all possible at
